@@ -10,6 +10,7 @@ namespace ObjectInitializers
     {
         public int X { get; set; }
         public int Y { get; set; }
+        public int Color { get; set; }
         public Point (int xVal, int yVal)
         {
             X = xVal;
@@ -20,5 +21,6 @@ namespace ObjectInitializers
         {
             Console.WriteLine("[{0}, {1}]", X, Y);
         }
+
     }
 }
